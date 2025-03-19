@@ -1,10 +1,12 @@
 from fastapi import FastAPI
+import time
 from fastapi.responses import PlainTextResponse
 
 app = FastAPI()
 
 @app.get("/", response_class=PlainTextResponse)
 async def index():
+    time.sleep(1)
     return "Hello from the server!"
 
 if __name__ == '__main__':

@@ -10,7 +10,7 @@ def send_request(url):
         # In a real-world scenario, you might log the exception
         return None, None
 
-def load_test(url, num_requests=5000, num_threads=20):
+def load_test(url, num_requests=10, num_threads=5):
     print(f"Starting load test: {num_requests} requests using {num_threads} threads.")
     with ThreadPoolExecutor(max_workers=num_threads) as executor:
         futures = [executor.submit(send_request, url) for _ in range(num_requests)]
