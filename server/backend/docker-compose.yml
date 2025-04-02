@@ -1,0 +1,21 @@
+services:
+  122-server-1:
+    ports:
+    - '3210:5000'
+    build: .
+  122-server-2:
+    ports:
+    - '3211:5000'
+    build: .
+  122-server-3:
+    ports:
+    - '3212:5000'
+    build: .
+  122-server-4:
+    ports:
+    - '3213:5000'
+    build: .
+  122-server-5:
+    ports:
+    - '3214:5000'
+    build: .
