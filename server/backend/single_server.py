@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import numpy as np
 import time
 from fastapi.responses import PlainTextResponse
 
