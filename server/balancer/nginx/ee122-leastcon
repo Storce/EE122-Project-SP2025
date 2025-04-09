@@ -2,6 +2,7 @@
 
 http {
     upstream backend {
+        least_conn;
         server 127.0.0.1:3210;   # Backend service on port 8080
         server 127.0.0.1:3211;   # Backend service on port 8081
         server 127.0.0.1:3212;   # Backend service on port 8081
