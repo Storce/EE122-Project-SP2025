@@ -18,7 +18,7 @@ def load_test(url, num_requests=10, num_threads=5):
     return results
 
 if __name__ == '__main__':
-    url = "http://localhost:5000/"
+    url = "http://localhost:3200/"
     start_time = time.time()
     results = load_test(url)
     end_time = time.time()
