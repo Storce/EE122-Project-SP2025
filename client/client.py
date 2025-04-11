@@ -8,8 +8,7 @@ def send_request(url):
         response = requests.get(url)
         return response.status_code, response.elapsed.total_seconds()
     except Exception as e:
-        # In a real-world scenario, you might log the exception
-        return None, None
+        return "Error"
 
 def load_test(url, num_requests=10, num_threads=5):
     # Start the load test by scheduling the requests concurrently
@@ -42,11 +41,9 @@ if __name__ == '__main__':
     end_time = time.time()
 
     if verbose:
-        # Print detailed per-request output if verbose is enabled
         for i, (status, elapsed) in enumerate(results, start=1):
             print(f"Request {i}: Status Code={status}, Time={elapsed if elapsed is not None else 'N/A'} sec")
 
-    # Summary statistics (always printed)
     successful = [r for r in results if r[0] == 200]
     print(f"\nTotal requests: {len(results)}")
     print(f"Successful responses: {len(successful)}")
