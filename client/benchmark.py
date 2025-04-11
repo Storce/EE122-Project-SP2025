@@ -21,7 +21,7 @@ def run_client_test(num_requests, num_threads, verbose):
     """
     cpu_samples = []
     stop_event = threading.Event()
-    sample_interval = 0.5  # sample CPU usage every 0.5 seconds
+    sample_interval = 0.25  # sample CPU usage every 0.5 seconds
 
     def monitor_cpu():
         # Warm-up call for CPU measurement.
@@ -86,18 +86,18 @@ def main():
 
     overall_avg_time = sum(run_times) / len(run_times)
     overall_avg_cpu = sum(cpu_averages) / len(cpu_averages)
-
+    print("")
     print("=== Benchmark Summary ===")
     print("Individual run times (sec):", [f"{t:.2f}" for t in run_times])
-    print(f"Overall average time: {overall_avg_time:.2f} seconds\n")
-
     print("Individual CPU averages (%):", [f"{cpu:.2f}" for cpu in cpu_averages])
+    print("")
+    print(f"Overall average time: {overall_avg_time:.2f} seconds\n")
     print(f"Overall average CPU usage: {overall_avg_cpu:.2f}%\n")
+    
 
-    # Optionally, print detailed CPU samples for each run.
-    print("Detailed CPU usage samples for each run:")
-    for i, samples in enumerate(cpu_samples_list, start=1):
-        print(f"  Run {i}: {samples}")
+    # print("Detailed CPU usage samples for each run:")
+    # for i, samples in enumerate(cpu_samples_list, start=1):
+    #     print(f"  Run {i}: {samples}")
 
 if __name__ == "__main__":
     main()
