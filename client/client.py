@@ -27,7 +27,7 @@ if __name__ == '__main__':
     num_requests = args.num_requests
     num_threads = args.num_threads
 
-    url = "http://localhost:3200/"
+    url = "http://0.0.0.0:3200/"
 
     if verbose:
         print(f"Starting load test on {url} with {num_requests} requests using {num_threads} threads.")
