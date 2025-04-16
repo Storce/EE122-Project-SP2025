@@ -7,26 +7,22 @@ def send_request(url):
     try:
         response = requests.get(url)
         return response.status_code, response.elapsed.total_seconds()
-    except Exception as e:
-        return "Error"
+    except Exception:
+        return 0, None  # Consistent format for error
 
 def load_test(url, num_requests=10, num_threads=5):
-    # Start the load test by scheduling the requests concurrently
     with ThreadPoolExecutor(max_workers=num_threads) as executor:
         futures = [executor.submit(send_request, url) for _ in range(num_requests)]
         results = [future.result() for future in futures]
     return results
 
 if __name__ == '__main__':
-    # Parse command-line arguments
     parser = argparse.ArgumentParser(description="Simple Load Test Client")
     parser.add_argument("num_requests", type=int, help="Number of requests to send")
     parser.add_argument("num_threads", type=int, help="Number of concurrent threads")
-    parser.add_argument("verbose", type=str, choices=["true", "false"],
-                        help="Verbose output (true or false)")
+    parser.add_argument("verbose", type=str, choices=["true", "false"], help="Verbose output (true or false)")
     args = parser.parse_args()
 
-    # Convert the verbose argument to boolean
     verbose = args.verbose.lower() == "true"
     num_requests = args.num_requests
     num_threads = args.num_threads
@@ -42,9 +38,12 @@ if __name__ == '__main__':
 
     if verbose:
         for i, (status, elapsed) in enumerate(results, start=1):
-            print(f"Request {i}: Status Code={status}, Time={elapsed if elapsed is not None else 'N/A'} sec")
+            print(f"Request {i}: Status Code={status}, Time={elapsed:.3f} sec" if elapsed is not None else f"Request {i}: Failed")
 
     successful = [r for r in results if r[0] == 200]
+    failed = [r for r in results if r[0] != 200]
+
     print(f"\nTotal requests: {len(results)}")
     print(f"Successful responses: {len(successful)}")
+    print(f"Failed responses: {len(failed)}")
     print(f"Total time for load test: {end_time - start_time:.2f} seconds")

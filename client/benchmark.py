@@ -68,32 +68,45 @@ def main():
     run_times = []
     cpu_averages = []
     cpu_samples_list = []
+    verbose = args.verbose == "true"
 
-    print("Starting benchmarking...\n")
+    print(verbose)
+
+    if verbose:
+        print("Starting benchmarking...\n")
+
+
     for i in range(num_runs):
-        print(f"=== Run {i + 1}/{num_runs} ===")
+        if verbose:
+            print(f"=== Run {i + 1}/{num_runs} ===")
+
         elapsed, avg_cpu, samples, output = run_client_test(args.num_requests, args.num_threads, args.verbose)
         run_times.append(elapsed)
         cpu_averages.append(avg_cpu)
         cpu_samples_list.append(samples)
-        print(f"Run {i + 1}:")
-        print(f"  Time Elapsed: {elapsed:.2f} seconds")
-        print(f"  Average CPU Usage: {avg_cpu:.2f}%")
-        # Optionally, display the client.py output:
-        # print("Client output:")
-        # print(output)
-        print()
+
+        if verbose:
+            print(f"Run {i + 1}:")
+            print(f"  Time Elapsed: {elapsed:.2f} seconds")
+            print(f"  Average CPU Usage: {avg_cpu:.2f}%")
+            # Optionally, display the client.py output:
+            # print("Client output:")
+            # print(output)
+            print()
 
     overall_avg_time = sum(run_times) / len(run_times)
     overall_avg_cpu = sum(cpu_averages) / len(cpu_averages)
-    print("")
-    print("=== Benchmark Summary ===")
-    print("Individual run times (sec):", [f"{t:.2f}" for t in run_times])
-    print("Individual CPU averages (%):", [f"{cpu:.2f}" for cpu in cpu_averages])
-    print("")
-    print(f"Overall average time: {overall_avg_time:.2f} seconds\n")
-    print(f"Overall average CPU usage: {overall_avg_cpu:.2f}%\n")
+
+    if verbose:  
+        print("")
+        print("=== Benchmark Summary ===")
+        print("Individual run times (sec):", [f"{t:.2f}" for t in run_times])
+        print("Individual CPU averages (%):", [f"{cpu:.2f}" for cpu in cpu_averages])
+        print("")
+        print(f"Overall average time: {overall_avg_time:.2f} seconds\n")
+        print(f"Overall average CPU usage: {overall_avg_cpu:.2f}%\n")
     
+    print(f"Average time: { overall_avg_time}",f"Average CPU: {overall_avg_cpu}")
 
     # print("Detailed CPU usage samples for each run:")
     # for i, samples in enumerate(cpu_samples_list, start=1):
