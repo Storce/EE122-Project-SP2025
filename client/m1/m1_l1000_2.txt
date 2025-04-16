@@ -1,0 +1,18 @@
+Number of threads: 10
+Overall average time: 0.32 seconds
+
+Overall average CPU usage: 92.00%
+
+-----------------------------------------------------
+Number of threads: 5
+Overall average time: 0.32 seconds
+
+Overall average CPU usage: 92.00%
+
+-----------------------------------------------------
+Number of threads: 2
+Overall average time: 0.34 seconds
+
+Overall average CPU usage: 100.00%
+
+-----------------------------------------------------
