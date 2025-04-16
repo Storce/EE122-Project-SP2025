@@ -60,7 +60,7 @@ def main():
     parser.add_argument("num_requests", type=int, help="Number of requests to send (for client.py)")
     parser.add_argument("num_threads", type=int, help="Number of concurrent threads (for client.py)")
     parser.add_argument("verbose", choices=["true", "false"], help="Verbose output flag (for client.py)")
-    parser.add_argument("--runs", type=int, default=10, help="Number of benchmark runs (default: 10)")
+    parser.add_argument("--runs", type=int, default=1, help="Number of benchmark runs (default: 10)")
     
     args = parser.parse_args()
 
@@ -69,8 +69,6 @@ def main():
     cpu_averages = []
     cpu_samples_list = []
     verbose = args.verbose == "true"
-
-    print(verbose)
 
     if verbose:
         print("Starting benchmarking...\n")
@@ -106,7 +104,10 @@ def main():
         print(f"Overall average time: {overall_avg_time:.2f} seconds\n")
         print(f"Overall average CPU usage: {overall_avg_cpu:.2f}%\n")
     
-    print(f"Average time: { overall_avg_time}",f"Average CPU: {overall_avg_cpu}")
+
+    print(f"Overall average time: {overall_avg_time:.2f} seconds\n")
+    print(f"Overall average CPU usage: {overall_avg_cpu:.2f}%\n")
+    print('-----------------------------------------------------')
 
     # print("Detailed CPU usage samples for each run:")
     # for i, samples in enumerate(cpu_samples_list, start=1):
