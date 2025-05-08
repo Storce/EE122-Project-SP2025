@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Array of num_threads values
-num_threads_values=(200 150 125 100 75 50 20 10 5 2)
+# num_threads_values=(200 150 125 100 75 50 20 10 5 2)
+num_threads_values=(2 5 10 20 50 75 100 125 150 200)
 
 # Loop through each value of num_threads
 for num_threads in "${num_threads_values[@]}"
