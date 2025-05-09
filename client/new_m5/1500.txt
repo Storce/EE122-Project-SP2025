@@ -1,0 +1,670 @@
+Number of threads: 2
+Starting benchmarking...
+
+=== Run 1/10 ===
+Run 1:
+  Time Elapsed: 0.93 seconds
+  Average CPU Usage: 84.17%
+
+=== Run 2/10 ===
+Run 2:
+  Time Elapsed: 0.84 seconds
+  Average CPU Usage: 100.00%
+
+=== Run 3/10 ===
+Run 3:
+  Time Elapsed: 0.91 seconds
+  Average CPU Usage: 83.67%
+
+=== Run 4/10 ===
+Run 4:
+  Time Elapsed: 0.93 seconds
+  Average CPU Usage: 84.50%
+
+=== Run 5/10 ===
+Run 5:
+  Time Elapsed: 0.90 seconds
+  Average CPU Usage: 82.15%
+
+=== Run 6/10 ===
+Run 6:
+  Time Elapsed: 0.84 seconds
+  Average CPU Usage: 100.00%
+
+=== Run 7/10 ===
+Run 7:
+  Time Elapsed: 0.91 seconds
+  Average CPU Usage: 84.33%
+
+=== Run 8/10 ===
+Run 8:
+  Time Elapsed: 0.91 seconds
+  Average CPU Usage: 83.85%
+
+=== Run 9/10 ===
+Run 9:
+  Time Elapsed: 0.86 seconds
+  Average CPU Usage: 78.42%
+
+=== Run 10/10 ===
+Run 10:
+  Time Elapsed: 0.91 seconds
+  Average CPU Usage: 81.65%
+
+
+=== Benchmark Summary ===
+Individual run times (sec): ['0.93', '0.84', '0.91', '0.93', '0.90', '0.84', '0.91', '0.91', '0.86', '0.91']
+Individual CPU averages (%): ['84.17', '100.00', '83.67', '84.50', '82.15', '100.00', '84.33', '83.85', '78.42', '81.65']
+
+Overall average time: 0.89 seconds
+
+Overall average CPU usage: 86.28%
+
+Overall average time: 0.89 seconds
+
+Overall average CPU usage: 86.28%
+
+-----------------------------------------------------
+Number of threads: 5
+Starting benchmarking...
+
+=== Run 1/10 ===
+Run 1:
+  Time Elapsed: 0.77 seconds
+  Average CPU Usage: 92.17%
+
+=== Run 2/10 ===
+Run 2:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 100.00%
+
+=== Run 3/10 ===
+Run 3:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 96.67%
+
+=== Run 4/10 ===
+Run 4:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 98.00%
+
+=== Run 5/10 ===
+Run 5:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 96.07%
+
+=== Run 6/10 ===
+Run 6:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 98.03%
+
+=== Run 7/10 ===
+Run 7:
+  Time Elapsed: 0.86 seconds
+  Average CPU Usage: 77.92%
+
+=== Run 8/10 ===
+Run 8:
+  Time Elapsed: 0.77 seconds
+  Average CPU Usage: 93.47%
+
+=== Run 9/10 ===
+Run 9:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 96.67%
+
+=== Run 10/10 ===
+Run 10:
+  Time Elapsed: 0.85 seconds
+  Average CPU Usage: 100.00%
+
+
+=== Benchmark Summary ===
+Individual run times (sec): ['0.77', '0.83', '0.81', '0.83', '0.80', '0.81', '0.86', '0.77', '0.83', '0.85']
+Individual CPU averages (%): ['92.17', '100.00', '96.67', '98.00', '96.07', '98.03', '77.92', '93.47', '96.67', '100.00']
+
+Overall average time: 0.82 seconds
+
+Overall average CPU usage: 94.90%
+
+Overall average time: 0.82 seconds
+
+Overall average CPU usage: 94.90%
+
+-----------------------------------------------------
+Number of threads: 10
+Starting benchmarking...
+
+=== Run 1/10 ===
+Run 1:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 94.67%
+
+=== Run 2/10 ===
+Run 2:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 100.00%
+
+=== Run 3/10 ===
+Run 3:
+  Time Elapsed: 0.79 seconds
+  Average CPU Usage: 92.80%
+
+=== Run 4/10 ===
+Run 4:
+  Time Elapsed: 0.76 seconds
+  Average CPU Usage: 91.33%
+
+=== Run 5/10 ===
+Run 5:
+  Time Elapsed: 0.79 seconds
+  Average CPU Usage: 95.43%
+
+=== Run 6/10 ===
+Run 6:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 100.00%
+
+=== Run 7/10 ===
+Run 7:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 94.67%
+
+=== Run 8/10 ===
+Run 8:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 94.77%
+
+=== Run 9/10 ===
+Run 9:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 96.07%
+
+=== Run 10/10 ===
+Run 10:
+  Time Elapsed: 0.79 seconds
+  Average CPU Usage: 95.33%
+
+
+=== Benchmark Summary ===
+Individual run times (sec): ['0.80', '0.83', '0.79', '0.76', '0.79', '0.81', '0.80', '0.78', '0.80', '0.79']
+Individual CPU averages (%): ['94.67', '100.00', '92.80', '91.33', '95.43', '100.00', '94.67', '94.77', '96.07', '95.33']
+
+Overall average time: 0.79 seconds
+
+Overall average CPU usage: 95.51%
+
+Overall average time: 0.79 seconds
+
+Overall average CPU usage: 95.51%
+
+-----------------------------------------------------
+Number of threads: 20
+Starting benchmarking...
+
+=== Run 1/10 ===
+Run 1:
+  Time Elapsed: 0.79 seconds
+  Average CPU Usage: 94.57%
+
+=== Run 2/10 ===
+Run 2:
+  Time Elapsed: 0.82 seconds
+  Average CPU Usage: 97.33%
+
+=== Run 3/10 ===
+Run 3:
+  Time Elapsed: 0.84 seconds
+  Average CPU Usage: 98.70%
+
+=== Run 4/10 ===
+Run 4:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 96.73%
+
+=== Run 5/10 ===
+Run 5:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 95.33%
+
+=== Run 6/10 ===
+Run 6:
+  Time Elapsed: 0.79 seconds
+  Average CPU Usage: 96.80%
+
+=== Run 7/10 ===
+Run 7:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 95.33%
+
+=== Run 8/10 ===
+Run 8:
+  Time Elapsed: 0.82 seconds
+  Average CPU Usage: 97.33%
+
+=== Run 9/10 ===
+Run 9:
+  Time Elapsed: 0.79 seconds
+  Average CPU Usage: 96.00%
+
+=== Run 10/10 ===
+Run 10:
+  Time Elapsed: 0.77 seconds
+  Average CPU Usage: 93.47%
+
+
+=== Benchmark Summary ===
+Individual run times (sec): ['0.79', '0.82', '0.84', '0.81', '0.80', '0.79', '0.80', '0.82', '0.79', '0.77']
+Individual CPU averages (%): ['94.57', '97.33', '98.70', '96.73', '95.33', '96.80', '95.33', '97.33', '96.00', '93.47']
+
+Overall average time: 0.80 seconds
+
+Overall average CPU usage: 96.16%
+
+Overall average time: 0.80 seconds
+
+Overall average CPU usage: 96.16%
+
+-----------------------------------------------------
+Number of threads: 50
+Starting benchmarking...
+
+=== Run 1/10 ===
+Run 1:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 94.00%
+
+=== Run 2/10 ===
+Run 2:
+  Time Elapsed: 0.88 seconds
+  Average CPU Usage: 80.50%
+
+=== Run 3/10 ===
+Run 3:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 95.43%
+
+=== Run 4/10 ===
+Run 4:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 98.67%
+
+=== Run 5/10 ===
+Run 5:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 98.63%
+
+=== Run 6/10 ===
+Run 6:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 93.87%
+
+=== Run 7/10 ===
+Run 7:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 94.43%
+
+=== Run 8/10 ===
+Run 8:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 94.77%
+
+=== Run 9/10 ===
+Run 9:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 100.00%
+
+=== Run 10/10 ===
+Run 10:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 96.80%
+
+
+=== Benchmark Summary ===
+Individual run times (sec): ['0.78', '0.88', '0.81', '0.83', '0.80', '0.78', '0.78', '0.80', '0.83', '0.81']
+Individual CPU averages (%): ['94.00', '80.50', '95.43', '98.67', '98.63', '93.87', '94.43', '94.77', '100.00', '96.80']
+
+Overall average time: 0.81 seconds
+
+Overall average CPU usage: 94.71%
+
+Overall average time: 0.81 seconds
+
+Overall average CPU usage: 94.71%
+
+-----------------------------------------------------
+Number of threads: 75
+Starting benchmarking...
+
+=== Run 1/10 ===
+Run 1:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 98.67%
+
+=== Run 2/10 ===
+Run 2:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 93.33%
+
+=== Run 3/10 ===
+Run 3:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 96.00%
+
+=== Run 4/10 ===
+Run 4:
+  Time Elapsed: 0.87 seconds
+  Average CPU Usage: 80.00%
+
+=== Run 5/10 ===
+Run 5:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 95.93%
+
+=== Run 6/10 ===
+Run 6:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 94.67%
+
+=== Run 7/10 ===
+Run 7:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 96.17%
+
+=== Run 8/10 ===
+Run 8:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 98.63%
+
+=== Run 9/10 ===
+Run 9:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 94.67%
+
+=== Run 10/10 ===
+Run 10:
+  Time Elapsed: 0.76 seconds
+  Average CPU Usage: 91.83%
+
+
+=== Benchmark Summary ===
+Individual run times (sec): ['0.83', '0.78', '0.78', '0.87', '0.80', '0.78', '0.81', '0.83', '0.80', '0.76']
+Individual CPU averages (%): ['98.67', '93.33', '96.00', '80.00', '95.93', '94.67', '96.17', '98.63', '94.67', '91.83']
+
+Overall average time: 0.80 seconds
+
+Overall average CPU usage: 93.99%
+
+Overall average time: 0.80 seconds
+
+Overall average CPU usage: 93.99%
+
+-----------------------------------------------------
+Number of threads: 100
+Starting benchmarking...
+
+=== Run 1/10 ===
+Run 1:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 96.07%
+
+=== Run 2/10 ===
+Run 2:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 94.67%
+
+=== Run 3/10 ===
+Run 3:
+  Time Elapsed: 0.82 seconds
+  Average CPU Usage: 98.00%
+
+=== Run 4/10 ===
+Run 4:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 98.63%
+
+=== Run 5/10 ===
+Run 5:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 96.60%
+
+=== Run 6/10 ===
+Run 6:
+  Time Elapsed: 0.86 seconds
+  Average CPU Usage: 78.00%
+
+=== Run 7/10 ===
+Run 7:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 93.07%
+
+=== Run 8/10 ===
+Run 8:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 98.63%
+
+=== Run 9/10 ===
+Run 9:
+  Time Elapsed: 0.74 seconds
+  Average CPU Usage: 90.47%
+
+=== Run 10/10 ===
+Run 10:
+  Time Elapsed: 0.88 seconds
+  Average CPU Usage: 79.50%
+
+
+=== Benchmark Summary ===
+Individual run times (sec): ['0.80', '0.78', '0.82', '0.83', '0.80', '0.86', '0.78', '0.83', '0.74', '0.88']
+Individual CPU averages (%): ['96.07', '94.67', '98.00', '98.63', '96.60', '78.00', '93.07', '98.63', '90.47', '79.50']
+
+Overall average time: 0.81 seconds
+
+Overall average CPU usage: 92.36%
+
+Overall average time: 0.81 seconds
+
+Overall average CPU usage: 92.36%
+
+-----------------------------------------------------
+Number of threads: 125
+Starting benchmarking...
+
+=== Run 1/10 ===
+Run 1:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 94.77%
+
+=== Run 2/10 ===
+Run 2:
+  Time Elapsed: 0.82 seconds
+  Average CPU Usage: 97.27%
+
+=== Run 3/10 ===
+Run 3:
+  Time Elapsed: 0.77 seconds
+  Average CPU Usage: 94.00%
+
+=== Run 4/10 ===
+Run 4:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 98.67%
+
+=== Run 5/10 ===
+Run 5:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 95.93%
+
+=== Run 6/10 ===
+Run 6:
+  Time Elapsed: 0.82 seconds
+  Average CPU Usage: 96.73%
+
+=== Run 7/10 ===
+Run 7:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 97.27%
+
+=== Run 8/10 ===
+Run 8:
+  Time Elapsed: 0.77 seconds
+  Average CPU Usage: 92.00%
+
+=== Run 9/10 ===
+Run 9:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 95.93%
+
+=== Run 10/10 ===
+Run 10:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 96.67%
+
+
+=== Benchmark Summary ===
+Individual run times (sec): ['0.78', '0.82', '0.77', '0.80', '0.80', '0.82', '0.81', '0.77', '0.80', '0.81']
+Individual CPU averages (%): ['94.77', '97.27', '94.00', '98.67', '95.93', '96.73', '97.27', '92.00', '95.93', '96.67']
+
+Overall average time: 0.80 seconds
+
+Overall average CPU usage: 95.92%
+
+Overall average time: 0.80 seconds
+
+Overall average CPU usage: 95.92%
+
+-----------------------------------------------------
+Number of threads: 150
+Starting benchmarking...
+
+=== Run 1/10 ===
+Run 1:
+  Time Elapsed: 0.79 seconds
+  Average CPU Usage: 95.33%
+
+=== Run 2/10 ===
+Run 2:
+  Time Elapsed: 0.75 seconds
+  Average CPU Usage: 91.33%
+
+=== Run 3/10 ===
+Run 3:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 96.60%
+
+=== Run 4/10 ===
+Run 4:
+  Time Elapsed: 0.88 seconds
+  Average CPU Usage: 82.50%
+
+=== Run 5/10 ===
+Run 5:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 98.03%
+
+=== Run 6/10 ===
+Run 6:
+  Time Elapsed: 0.77 seconds
+  Average CPU Usage: 92.00%
+
+=== Run 7/10 ===
+Run 7:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 97.97%
+
+=== Run 8/10 ===
+Run 8:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 95.33%
+
+=== Run 9/10 ===
+Run 9:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 97.97%
+
+=== Run 10/10 ===
+Run 10:
+  Time Elapsed: 0.87 seconds
+  Average CPU Usage: 79.50%
+
+
+=== Benchmark Summary ===
+Individual run times (sec): ['0.79', '0.75', '0.81', '0.88', '0.81', '0.77', '0.81', '0.80', '0.80', '0.87']
+Individual CPU averages (%): ['95.33', '91.33', '96.60', '82.50', '98.03', '92.00', '97.97', '95.33', '97.97', '79.50']
+
+Overall average time: 0.81 seconds
+
+Overall average CPU usage: 92.66%
+
+Overall average time: 0.81 seconds
+
+Overall average CPU usage: 92.66%
+
+-----------------------------------------------------
+Number of threads: 200
+Starting benchmarking...
+
+=== Run 1/10 ===
+Run 1:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 96.00%
+
+=== Run 2/10 ===
+Run 2:
+  Time Elapsed: 0.83 seconds
+  Average CPU Usage: 98.70%
+
+=== Run 3/10 ===
+Run 3:
+  Time Elapsed: 0.78 seconds
+  Average CPU Usage: 96.60%
+
+=== Run 4/10 ===
+Run 4:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 95.93%
+
+=== Run 5/10 ===
+Run 5:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 96.73%
+
+=== Run 6/10 ===
+Run 6:
+  Time Elapsed: 0.80 seconds
+  Average CPU Usage: 96.67%
+
+=== Run 7/10 ===
+Run 7:
+  Time Elapsed: 0.82 seconds
+  Average CPU Usage: 98.03%
+
+=== Run 8/10 ===
+Run 8:
+  Time Elapsed: 0.79 seconds
+  Average CPU Usage: 95.33%
+
+=== Run 9/10 ===
+Run 9:
+  Time Elapsed: 0.81 seconds
+  Average CPU Usage: 97.33%
+
+=== Run 10/10 ===
+Run 10:
+  Time Elapsed: 0.76 seconds
+  Average CPU Usage: 92.00%
+
+
+=== Benchmark Summary ===
+Individual run times (sec): ['0.80', '0.83', '0.78', '0.80', '0.80', '0.80', '0.82', '0.79', '0.81', '0.76']
+Individual CPU averages (%): ['96.00', '98.70', '96.60', '95.93', '96.73', '96.67', '98.03', '95.33', '97.33', '92.00']
+
+Overall average time: 0.80 seconds
+
+Overall average CPU usage: 96.33%
+
+Overall average time: 0.80 seconds
+
+Overall average CPU usage: 96.33%
+
+-----------------------------------------------------
