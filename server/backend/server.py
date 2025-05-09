@@ -5,7 +5,7 @@ from fastapi.responses import PlainTextResponse
 
 app = FastAPI()
 
-def compute_heavy_operation(size=2500):
+def compute_heavy_operation(size=1000):
     A = np.random.rand(size, size)
     B = np.random.rand(size, size)
     C = np.dot(A, B)
